@@ -1,0 +1,62 @@
+.navbar{
+    background-color: rgb(80, 97, 173);
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    padding: 16px 14px;
+    color: black;
+}
+  
+.navbar a.active {
+    color: white;
+    
+}
+.navbar-h1 a{
+    font-size: 25px;
+}
+.nav-item{
+    margin-left: 15px;
+}
+
+.navbar .navbar-collapse .collapse .show{
+    text-align: center;
+}
+
+button.mybutton.navbar-toggler {
+    color:white;
+}
+
+#form{
+    height: 100px;
+    width:auto;
+    padding-top: 100px;
+    margin: 100px;
+}
+.iform{
+    border: 2px black solid ;
+    padding:10px;
+    align-content: center;
+}
+input[type="password"]{
+    margin-bottom: 10px;
+}
+
+.mess{
+    text-align: center;
+}
+.fail{
+    color: red;
+}
+
+.success{
+    color:green;
+}
